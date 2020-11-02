@@ -1,0 +1,24 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 4rem !important;
+}
+
+
+.box {
+    /* background-color: white; */
+    padding: 2rem;
+    border-radius: 20px;
+    color: white;
+}
+
+.d-flex {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
