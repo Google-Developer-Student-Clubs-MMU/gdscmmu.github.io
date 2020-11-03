@@ -104,6 +104,7 @@ span {
 }
 
 .profile {
+    margin: 40px auto;
     height: 300px;
     max-width: 300px;
     position: relative;
@@ -112,7 +113,6 @@ span {
     background-color: #fff;
     box-shadow: 0 10px 20px rgba(0,0,0,0.6);
     border-radius: 10px;
-    margin-bottom: 40px !important;
 }
 
 .profile-1 .profile-span {
