@@ -1,11 +1,80 @@
+body > * {
+    font-family: 'Poppins', sans-serif !important;
+    color: #0e174a !important;
+}
+
 body {
-    font-family: 'Poppins', sans-serif;
+    background-image: url("../img/main-background.svg") !important;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    /* background-color: #ffc300 !important; */
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+}
+
+nav a {
+    font-size: 1.2rem;
+    margin-right: 3rem;
+}
+
+.nav-colored {
+    /* background-color: #ffffff; */
+    opacity: 0.7;
+    /* border-radius: 20px; */
+}
+
+.nav-transparent {
+    background-color: transparent;
 }
 
 h1 {
-    font-size: 4rem !important;
+    font-size: 6rem !important;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    text-shadow: 4px 4px #000000;
 }
 
+.main {
+    color: white !important;
+    height: 100vh;
+}
+
+.dev-logo {
+    max-width: 500px;
+}
+
+#about, #team {
+    font-size: 1.5rem;
+    font-weight: 200;
+    background-color: white;
+    padding: 4rem;
+}
+
+#about img {
+    max-width: 100%;
+    /* max-height: 400px; */
+    text-align: center;
+}
+
+.find-out-more {
+    background-color: #0e174a !important;
+    color: white !important;
+}
+
+.find-out-more:hover {
+    background-color: white !important;
+    color: black !important;
+    transition: 2s;
+}
+
+#team {
+    background-color: beige;
+    text-align: center;
+}
 
 .box {
     /* background-color: white; */
@@ -14,11 +83,26 @@ h1 {
     color: white;
 }
 
-.d-flex {
+.nav-link {
+    color: black;
+}
+
+span {
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+  }
+  
+  @keyframes caret {
+    50% {
+      border-color: transparent;
+    }
+  }
+
+/* .d-flex {
     position: absolute;
     text-align: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
+} */
 
