@@ -103,21 +103,57 @@ span {
     margin-bottom: 60px;
 }
 
-
 .profile {
     height: 300px;
+    max-width: 300px;
     position: relative;
     overflow: hidden;
     cursor: pointer;
     background-color: #fff;
     box-shadow: 0 10px 20px rgba(0,0,0,0.6);
     border-radius: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 40px !important;
 }
 
 .profile-1 .profile-span {
     height: 100%;
-    background-image: url("../img/test-profile.jpg");
+    background-image: url("../img/cornelius.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    transition: all 1s;
+    border-radius: 5px;
+    animation: none;
+    border: none;
+}
+
+.profile-2 .profile-span {
+    height: 100%;
+    background-image: url("../img/sid.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    transition: all 1s;
+    border-radius: 5px;
+    animation: none;
+    border: none;
+}
+
+.profile-3 .profile-span {
+    height: 100%;
+    background-image: url("../img/pritesh.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    transition: all 1s;
+    border-radius: 5px;
+    animation: none;
+    border: none;
+}
+
+.profile-4 .profile-span {
+    height: 100%;
+    background-image: url("../img/nadia.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
@@ -202,11 +238,18 @@ span {
     transform: translateY(0);
 }
 
-/* .d-flex {
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-} */
-
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 2rem !important;
+    }
+    h3 {
+        font-size: 1.2rem !important;
+    }
+    #about, #team {
+        font-size: 1rem;
+        padding: 2rem;
+    }
+    #about {
+        text-align: center;
+    }
+}
