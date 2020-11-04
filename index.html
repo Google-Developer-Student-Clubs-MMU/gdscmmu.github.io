@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,700&display=swap" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
@@ -22,12 +23,45 @@
       </nav>    
     </header> -->
 
+    <header>
+      <div class="container">
+        <nav class="nav d-flex justify-content-between">
+
+          <ul class="main-links list-unstyled d-flex">
+            <li><a class="nav-link">Home</a></li>
+            <li><a class="nav-link">About</a></li>
+            <li><a class="nav-link">Team</a></li>
+            <li><a class="nav-link">Events</a></li>
+          </ul>
+
+          <div class="spacer">
+          </div>
+
+
+          <div class="social-handles">
+            <i class="github fa fa-github fa-2x" aria-hidden="true"></i>
+            <i class="facebook fa fa-facebook fa-2x" aria-hidden="true"></i>
+            <i class="fa fa-linkedin linkedin fa-2x" aria-hidden="true"></i>  
+          </div>
+          <!-- <li class="nav-link">Home</li>
+          <li class="nav-link">About</li>
+          <li class="nav-link">The Team</li> -->
+        </ul>
+
+      </div>
+    </header>
+
     <div data-aos="fade-down" data-aos-duration="1500" class="main d-flex flex-column align-items-center justify-content-center text-center">
         <h1 class="anim-typewriter"></h1>
         <h3>Google Developer Student Club</h3>
-        <a href="#"><button class="btn find-out-more mt-4">
-          Register Now
-        </button></a>
+        <div class="buttons">
+          <a href="#"><button class="btn find-out-more mt-4 mr-4">
+            Register Now
+          </button></a>
+          <a href="#"><button class="btn find-out-more mt-4">
+            Contact Us
+          </button></a>  
+        </div>
     </div>
 
     <div id="about" class="container-fluid">
@@ -135,19 +169,19 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script>
-//       let nav = document.querySelector('nav');
-//       window.onscroll = function() {
-//   "use strict";
-//   let height = $(".main").height() - 100;
-//   if (document.body.scrollTop >= height || document.documentElement.scrollTop >= height )
-//  {
-//     nav.classList.add("nav-colored");
-//     nav.classList.remove("nav-transparent");
-//   } else {
-//     nav.classList.add("nav-transparent");
-//     nav.classList.remove("nav-colored");
-//   }
-// }
+      let nav = document.querySelector('nav');
+      window.onscroll = function() {
+  "use strict";
+  let height = $(".main").height() - 100;
+  if (document.body.scrollTop >= height || document.documentElement.scrollTop >= height )
+ {
+    nav.classList.add("nav-colored");
+    nav.classList.remove("nav-transparent");
+  } else {
+    nav.classList.add("nav-transparent");
+    nav.classList.remove("nav-colored");
+  }
+}
     </script>
     <script>
       AOS.init();

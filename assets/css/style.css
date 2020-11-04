@@ -1,5 +1,41 @@
+@font-face {
+    font-family: 'Product Sans';
+    src: url('../fonts/ProductSans-Regular.woff2') format('woff2'),
+        url('../fonts/ProductSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    src: url('../fonts/ProductSans-Bold.woff2') format('woff2'),
+        url('../fonts/ProductSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    src: url('../fonts/ProductSans-Italic.woff2') format('woff2'),
+        url('../fonts/ProductSans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    src: url('../fonts/ProductSans-BoldItalic.woff2') format('woff2'),
+        url('../fonts/ProductSans-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
 body > * {
-    font-family: 'Poppins', sans-serif !important;
+    font-family: 'Product Sans', sans-serif !important;
     color: #0e174a !important;
 }
 
@@ -8,17 +44,30 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    /* background-color: #ffc300 !important; */
 }
 
-nav {
-    position: fixed;
+header {
     width: 100%;
+    position: fixed;
+    /* background-color: white; */
 }
 
-nav a {
-    font-size: 1.2rem;
-    margin-right: 3rem;
+.spacer {
+    flex-grow: 1;
+}
+
+.nav {
+    color: white;
+    padding: 1rem;
+}
+
+.main-links {
+    background-color: #000000;
+}
+
+.github, .facebook, .linkedin {
+    color: white;
+    margin-left: 1rem;
 }
 
 .nav-colored {
@@ -275,5 +324,11 @@ span {
     }
     #about {
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    body {
+        background-size: contain;
     }
 }
