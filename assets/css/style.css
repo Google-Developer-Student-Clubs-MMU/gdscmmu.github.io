@@ -175,6 +175,18 @@ span {
     border: none;
 }
 
+.profile-6 .profile-span {
+    height: 100%;
+    background-image: url("../img/arif.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    transition: all 1s;
+    border-radius: 5px;
+    animation: none;
+    border: none;
+}
+
 .profile .profile-span:nth-child(1) {
     width: 25%;
     z-index: 6;
