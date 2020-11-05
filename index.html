@@ -25,7 +25,7 @@
 
     <header>
       <div class="container">
-        <nav class="nav d-flex justify-content-between">
+        <nav data-aos="fade-down" class="nav d-flex justify-content-between align-items-center">
 
           <ul class="main-links list-unstyled d-flex">
             <li><a class="nav-link">Home</a></li>
@@ -169,7 +169,7 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script>
-      let nav = document.querySelector('nav');
+      let nav = document.querySelector('header');
       window.onscroll = function() {
   "use strict";
   let height = $(".main").height() - 100;
