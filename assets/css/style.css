@@ -128,17 +128,12 @@ header {
     /* background-color: white; */
 }
 
-.spacer {
-    flex-grow: 1;
-}
-
 .nav {
     color: white;
 }
 
 .main-links {
     padding-top: 10px;
-    /* background-color: #000000; */
 }
 
 .nav-link:hover {
@@ -147,20 +142,18 @@ header {
     transition: 0.2s;
 }
 
-.github, .facebook, .linkedin {
+.social-handles > * {
     color: white;
     margin-left: 1rem;
 }
 
-.nav-colored {
-    /* background-color: #ffffff; */
-    background-color: #1F1F1F;
-    opacity: 0.8;
-    /* border-radius: 20px; */
+header:hover {
+    transition: 0.3s;
+    opacity: 0.9;
 }
 
-.nav-transparent {
-    /* background-color: transparent; */
+.social-handles i:hover {
+    opacity: 1.0;
 }
 
 h1 {
@@ -175,23 +168,6 @@ h1 {
     height: 100vh;
 }
 
-.dev-logo {
-    max-width: 500px;
-}
-
-#about, #team {
-    font-size: 1.5rem;
-    font-weight: 200;
-    background-color: white;
-    padding: 4rem;
-}
-
-#about img {
-    max-width: 100%;
-    /* max-height: 400px; */
-    text-align: center;
-}
-
 .find-out-more {
     background-color: #0e174a !important;
     color: white !important;
@@ -203,9 +179,60 @@ h1 {
     transition: 2s;
 }
 
+.dev-logo {
+    max-width: 500px;
+}
+
+#moreondsc, #team, #whattoexpect, #FAQ {
+    /* font-size: 1.5rem; */
+    font-weight: 200;
+    background-color: white;
+    padding: 4rem;
+}
+
+#moreondsc img {
+    max-width: 100%;
+    /* max-height: 400px; */
+    text-align: center;
+}
+
+#whattoexpect {
+    /* position: relative; */
+}
+
+.outer-div {
+    position: relative;
+}
+
+.guy-1, .guy-2 {
+    display: none;
+    position: absolute;
+    max-height: 600px;
+}
+
+.guy-1 {
+    left: 10px;
+    top: 100px;
+}
+
+.guy-2 {
+    right: 10px;
+    top: 100px;
+}
+
+.whattoexpect-item {
+    z-index: 100;
+    min-height: 272px;
+    padding: 2rem !important;
+    margin: 1rem;
+    -webkit-box-shadow: 10px 8px 47px -14px rgba(0,0,0,0.3);
+    -moz-box-shadow: 10px 8px 47px -14px rgba(0,0,0,0.3);
+    box-shadow: 10px 8px 47px -14px rgba(0,0,0,0.3);
+}
+
+
 #team {
     background-color: beige;
-    /* text-align: center; */
 }
 
 .box {
@@ -394,6 +421,32 @@ span {
     transform: translateY(0);
 }
 
+
+#accordion button {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-header button {
+    text-align: left;
+}
+
+#accordion .btn-link {
+    text-decoration: none;
+    color: black;
+}
+
+#accordion .card {
+    background-color: white !important;
+    border: none;
+}
+
+#accordion .card-header {
+    background-color: white;
+}
+
+
 @media screen and (max-width: 767px) {
     h1 {
         font-size: 2.5rem !important;
@@ -401,11 +454,11 @@ span {
     h3 {
         font-size: 1.2rem !important;
     }
-    #about, #team {
+    #moreondsc, #team {
         font-size: 1rem;
         padding: 2rem;
     }
-    #about {
+    #moreondsc {
         text-align: center;
     }
 }
@@ -422,5 +475,14 @@ span {
     }    
     h1 {
         text-shadow: 2px 2px #fff;
+    }
+    #FAQ {
+        padding: 2rem;
+    }
+}
+
+@media screen and (min-width: 1270px) {
+    .guy-1, .guy-2 {
+        display: block;
     }
 }
