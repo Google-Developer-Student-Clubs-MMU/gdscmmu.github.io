@@ -497,7 +497,7 @@ footer.container-fluid {
     }
     #moreondsc, #team, #whattoexpect {
         font-size: 1rem;
-        padding: 1rem !important;
+        padding: 2rem 1rem 2rem 1rem !important;
     }
     .boxes-row {
         justify-content: space-evenly;
