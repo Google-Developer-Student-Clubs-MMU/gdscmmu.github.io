@@ -495,7 +495,7 @@ footer.container-fluid {
     h1 {
         text-shadow: 2px 2px #fff;
     }
-    #moreondsc, #team, #whattoexpect, #FAQ {
+    #moreondsc, #team, #whattoexpect, #FAQ, footer {
         font-size: 1rem;
         padding: 2.5rem 1rem 2.5rem 1rem !important;
     }
