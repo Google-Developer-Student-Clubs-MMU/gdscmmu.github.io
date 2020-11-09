@@ -456,6 +456,10 @@ footer {
     max-width: 90%;
 }
 
+.boxes-row {
+    justify-content: center;
+}
+
 footer.container-fluid {
     padding-bottom: 10px !important;
 }
@@ -472,10 +476,6 @@ footer.container-fluid {
     }
     h3 {
         font-size: 1.2rem !important;
-    }
-    #moreondsc, #team, #whattoexpect {
-        font-size: 1rem;
-        padding: 1rem;
     }
     #moreondsc {
         text-align: center;
@@ -494,6 +494,13 @@ footer.container-fluid {
     }    
     h1 {
         text-shadow: 2px 2px #fff;
+    }
+    #moreondsc, #team, #whattoexpect {
+        font-size: 1rem;
+        padding: 1rem !important;
+    }
+    .boxes-row {
+        justify-content: space-evenly;
     }
     #FAQ {
         padding: 2rem 1rem 2rem 1rem;
