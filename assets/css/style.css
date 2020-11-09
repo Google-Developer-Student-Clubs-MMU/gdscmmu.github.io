@@ -422,7 +422,7 @@ span {
 }
 
 
-#accordion > button {
+#accordion button {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -450,6 +450,10 @@ footer {
     font-weight: 200;
     background-color: beige;
     padding: 4rem;
+}
+
+.discord-widget {
+    max-width: 100%;
 }
 
 footer.container-fluid {
@@ -487,7 +491,7 @@ footer.container-fluid {
         text-shadow: 2px 2px #fff;
     }
     #FAQ {
-        padding: 2rem;
+        padding: 2rem 1rem 2rem 1rem;
     }
 }
 
