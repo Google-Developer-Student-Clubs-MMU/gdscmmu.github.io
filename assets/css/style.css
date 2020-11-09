@@ -473,9 +473,9 @@ footer.container-fluid {
     h3 {
         font-size: 1.2rem !important;
     }
-    #moreondsc, #team {
+    #moreondsc, #team, #whattoexpect {
         font-size: 1rem;
-        padding: 2rem;
+        padding: 1rem;
     }
     #moreondsc {
         text-align: center;
