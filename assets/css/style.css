@@ -183,7 +183,7 @@ h1 {
     max-width: 500px;
 }
 
-#moreondsc, #team, #whattoexpect, #FAQ {
+#moreondsc, #team, #whattoexpect, #FAQ{
     /* font-size: 1.5rem; */
     font-weight: 200;
     background-color: white;
@@ -422,7 +422,7 @@ span {
 }
 
 
-#accordion button {
+#accordion > button {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -444,6 +444,16 @@ span {
 
 #accordion .card-header {
     background-color: white;
+}
+
+footer {
+    font-weight: 200;
+    background-color: beige;
+    padding: 4rem;
+}
+
+footer.container-fluid {
+    padding-bottom: 10px !important;
 }
 
 
