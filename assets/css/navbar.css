@@ -66,6 +66,10 @@
     background: #6d7fcc;
 }
 
+#sidebar .sidebar-header h3 {
+    color: white !important;
+}
+
 #sidebar ul.components {
     padding: 20px 0;
     /* border-bottom: 1px solid #47748b; */
@@ -77,7 +81,7 @@
 }
 
 #sidebar ul li a {
-    padding: 10px;
+    padding: 10px 10px 10px 20px;
     font-size: 1.1em;
     display: block;
 }
@@ -149,5 +153,8 @@ a.article:hover {
         display: block;
         top: 15px;
         left: 15px;
+    }
+    .social-handles {
+        padding-left: 5px;
     }
 }
