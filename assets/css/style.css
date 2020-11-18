@@ -271,6 +271,10 @@ span {
     margin-bottom: 60px;
 }
 
+.guest-recruitment {
+    text-align: center;
+}
+
 .profile {
     margin: 40px auto;
     height: 300px;
@@ -484,7 +488,6 @@ footer {
 footer.container-fluid {
     padding-bottom: 10px !important;
 }
-
 
 @media screen and (max-width: 767px) {
     header {
