@@ -124,7 +124,7 @@ body > * {
 }
 
 body {
-    background-image: url("../img/main-background.svg") !important;
+    background-image: url("../img/main-background.svg");
     background-position: center;
     background-attachment: fixed;
     background-size: cover;

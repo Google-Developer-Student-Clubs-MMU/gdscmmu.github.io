@@ -1,0 +1,30 @@
+    body {
+        background-image: url('../img/events-background.svg') !important;
+    }    
+    
+    h1 {
+        font-size: 4rem;
+        color: #0e174a;
+        text-shadow: 4px 4px white !important;
+    }
+    
+    h3 {
+        color: #0e174a;
+    }
+
+    .event {
+        font-weight: 200;
+        padding: 4rem; 
+        -webkit-box-shadow: 0px 6px 5px 3px rgba(0,0,0,0.42);
+        -moz-box-shadow: 0px 6px 5px 3px rgba(0,0,0,0.42);
+        box-shadow: 0px 6px 5px 3px rgba(0,0,0,0.42);
+    }
+
+
+    .event-odd {
+        background-color: white;
+    }
+
+    .event-even {
+        background-color: rgb(245, 245, 238);
+    }
