@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         googleCalendarApiKey: 'AIzaSyDmQU1J6rYkKTp85d7G5MkkSEyDZ5pyygo',
         events: {
-            googleCalendarId: 'p5asbedeh1i1gqq7djj2lgfvb0@group.calendar.google.com'
+            googleCalendarId: 'r9qv95ek58u07ektu1lo59cpio@group.calendar.google.com'
         }
     });
     calendar.render();
