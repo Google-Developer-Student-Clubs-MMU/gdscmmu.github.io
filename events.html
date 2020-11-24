@@ -10,10 +10,14 @@
     <link href="assets/css/events.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/navbar.css" rel="stylesheet">
+    <link href="assets/css/calendar.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.4.0/main.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.4.0/main.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/calendar.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CCS3W88SJN"></script>
     <script>
@@ -37,22 +41,25 @@
 
       <ul class="list-unstyled components">
           <li>
-            <a class="navbar-link" href="#">Home</a>
+            <a class="navbar-link" href="../index.html">Home</a>
           </li>
 
           <li>
             <a class="normal-nav-link" href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">About</a>
             <ul class="collapse list-unstyled" id="homeSubmenu">
                 <li>
-                    <a class="navbar-link" href="#moreondsc">Who We Are</a>
+                    <a class="navbar-link" href="../index.html#moreondsc">Who We Are</a>
                 </li>
                 <li>
-                    <a class="navbar-link" href="#whattoexpect">What To Expect</a>
+                    <a class="navbar-link" href="../index.html#whattoexpect">What To Expect</a>
                 </li>
             </ul>
           </li>
           <li>
-            <a class="navbar-link" href="#team">Meet the Team</a>
+            <a class="navbar-link" href="../index.html#team">Meet the Team</a>
+          </li>
+          <li>
+            <a class="navbar-link" href="#">Events</a>
           </li>
           <li>
             <a class="navbar-link" href="#footer">Contact Us</a>
@@ -80,11 +87,11 @@
         <nav data-aos="fade-down" class="nav d-flex justify-content-between align-items-center">
 
           <ul class="main-links list-unstyled d-flex">
-            <li><a href="#" class="nav-link">Home</a></li>
-            <li><a href="#moreondsc" class="nav-link">About</a></li>
-            <li><a href="#team" class="nav-link">Team</a></li>
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="../index.html#moreondsc" class="nav-link">About</a></li>
+            <li><a href="index.html#team" class="nav-link">Team</a></li>
+            <li><a class="nav-link">Events</a></li>
             <li><a href="#footer" class="nav-link">Contact Us</a></li>
-            <!-- <li><a class="nav-link">Events</a></li> -->
           </ul>
 
           <div class="spacer">
@@ -125,7 +132,7 @@
                           </button></a>
                     </div>
                     <div class="col-md-6 d-flex align-items-center">
-                        Image here
+                        <img src="https://via.placeholder.com/350x150.png" alt="placeholder image">
                     </div>
                 </div>
             </div>
@@ -135,7 +142,7 @@
             <div data-aos="fade-down" data-aos-duration="1500" class="container">
                 <div class="row text-center text-md-left about-box"> 
                     <div class="col-md-6 d-flex align-items-center">
-                        Image here
+                      <img src="https://via.placeholder.com/350x150.png" alt="placeholder image">
                     </div>
                     <div class="col-md-6 mb-4 d-flex flex-column justify-content-center">
                         <h3 class="mb-4">Info Session</h3>
@@ -159,7 +166,7 @@
                           </button></a>                  
                     </div>
                     <div class="col-md-6 d-flex align-items-center">
-                        Image here
+                      <img src="https://via.placeholder.com/350x150.png" alt="placeholder image">
                     </div>
                 </div>
             </div>
@@ -176,8 +183,15 @@
           </div>
         </div>
     </div> -->
+    <div class="event event-even container-fluid align-items-center text-center">
+      <div data-aos="fade-down" data-aos-duration="1500" class="container">
+        <h3 class="mb-4">Future Events</h2>
+        <div id="calendar"></div>
+      </div>
+    </div>   
+      
 
-
+    </div>
 
     <footer id="footer" class="container-fluid">
       <div class="container">
