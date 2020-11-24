@@ -10,10 +10,14 @@
     <link href="assets/css/events.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/navbar.css" rel="stylesheet">
+    <link href="assets/css/calendar.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.4.0/main.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.4.0/main.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/calendar.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CCS3W88SJN"></script>
     <script>
@@ -179,8 +183,16 @@
           </div>
         </div>
     </div> -->
+     <!-- TODO calendar.css -->
+    <div class="event event-even container-fluid align-items-center text-center">
+      <div data-aos="fade-down" data-aos-duration="1500" class="container">
+        <h3 class="mb-4">Event Calendar</h2>
+        <div id="calendar"></div>
+      </div>
+    </div>   
+      
 
-
+    </div>
 
     <footer id="footer" class="container-fluid">
       <div class="container">
