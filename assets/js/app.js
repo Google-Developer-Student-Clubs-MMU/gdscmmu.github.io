@@ -1,16 +1,3 @@
-// let nav = document.querySelector('nav');
-// window.onscroll = function() {
-//   "use strict";
-//   if (document.body.scrollTop >= 200) {
-//     nav.classList.add("nav-colored");
-//     nav.classList.remove("nav-transparent");
-//   } else {
-//     nav.classList.add("nav-transparent");
-//     nav.classList.remove("nav-colored");
-//   }
-// }
-
-
 document.addEventListener('DOMContentLoaded',function(event){
   // array with texts to type in typewriter
   var dataText = ['#GDSC@MMU', '#GDSC@MMU'];
