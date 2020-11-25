@@ -1,4 +1,13 @@
 .fc-daygrid-dot-event, .fc-event-title
 {
     white-space: normal !important;
-}   
+}
+
+.fc-prev-button, .fc-next-button, .fc-today-button
+{
+    background-color: #0e174a !important;
+    border-color: #0e174a !important;    
+    transition: 0ms !important;
+    font-size: 1.5rem !important;
+    font-weight: bolder !important;
+}
