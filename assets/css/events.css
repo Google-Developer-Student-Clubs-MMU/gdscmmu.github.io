@@ -31,6 +31,12 @@ h3 {
     background-color: rgb(245, 245, 238);
 }
 
+.workshop-graphic {
+    max-width: 80% !important;
+    -webkit-box-shadow: 10px 10px 26px -5px rgba(0,0,0,0.16);
+    -moz-box-shadow: 10px 10px 26px -5px rgba(0,0,0,0.16);
+    box-shadow: 10px 10px 26px -5px rgba(0,0,0,0.16);
+}
 
 .img-fluid
 {
