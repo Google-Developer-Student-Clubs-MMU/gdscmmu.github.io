@@ -128,7 +128,16 @@
                 <div class="row text-center text-md-left about-box">
                     <div class="col-md-6 mb-4 d-flex flex-column justify-content-center">
                         <h3 class="mb-4">Full Stack Web Development</h3>
-                        <p>Add write up here</p>
+                        <p>
+                          Wanna learn full stack website development, from frontend to backend? Sign up for this workshop series!
+                          Here are the pre-requisites for this workshop series:
+                          <ul class="prereqs">
+                            <li>basic understanding of HTML, CSS</li>
+                            <li>JavaScript (variables, loops, functions, classes, JSON notation)</li>
+                            <li>fundamental modern JavaScript (ES6)</li>
+                            <li>basic understanding of the client-server model</li>
+                          </ul>
+                          Don't worry if you don't have a good grasp of the pre-requisites, we'll release a 2 hour video going through the basics that you need prior to the workshop series. This video will be released by 8th December 2020.</p>
                         <a href="https://forms.gle/shPhxa7mvCydmA8W6" target="_"><button class="btn find-out-more mt-4 mr-4">
                             Sign Up
                           </button></a>
@@ -147,8 +156,16 @@
                       <img src="https://via.placeholder.com/350x150.png" alt="placeholder image">
                     </div>
                     <div class="col-md-6 mb-4 d-flex flex-column justify-content-center">
-                        <h3 class="mb-4">Info Session</h3>
-                        <p>Add write up here</p>
+                        <h3 class="mb-4">Get a Glimpse of Google's Hiring Process (With Marcus Foon)</h3>
+                        <p>
+                          Keynote Presenter: Marcus Foon, Program Manager, Google Singapore
+                        </p>
+                        <p>
+                          Wanna know how the hiring process is like at Google Singapore?
+                          <br/>
+                          Curious about how to join Google?
+                        </p>
+                          Attend this session where Marcus talks about the two topics above, and gain insights on ways to get a head-start in your career path in technology.</p>
                         <a href="https://forms.gle/shPhxa7mvCydmA8W6" target="_"><button class="btn find-out-more mt-4 mr-4">
                             Sign Up
                           </button></a>
@@ -262,6 +279,15 @@
                 $('a[aria-expanded=true]').attr('aria-expanded', 'false');
             });
         });
+    </script>
+    <script>
+      $(window).resize(function() {
+        if($(window).width() < 767 ) {
+          $('.prereqs').addClass('text-left')
+        } else {
+          $('.prereqs').removeClass('text-left')
+        } 
+      })
     </script>
     <script>
     const scriptURL = 'https://script.google.com/macros/s/AKfycbwnUWrY8gzGqbVZ4on6-hsPAbms8khQltLrV85cqOmO6kQklv0/exec'
