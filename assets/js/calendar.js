@@ -1,3 +1,10 @@
+//need to replace with .env file
+let process = {
+    env: {
+        GoogleCalendarAPIKey: 'AIzaSyDmQU1J6rYkKTp85d7G5MkkSEyDZ5pyygo'
+    }
+}
+
 document.addEventListener('DOMContentLoaded', function() {
     var calendarEl = document.getElementById('calendar');
     
@@ -59,7 +66,11 @@ document.addEventListener('DOMContentLoaded', function() {
         showNonCurrentDates: false,
         contentHeight: 600,
         displayEventTime: false,
+<<<<<<< HEAD
         googleCalendarApiKey: config.API_KEY,
+=======
+        googleCalendarApiKey: process.env.GoogleCalendarAPIKey,
+>>>>>>> 066b0c98d26e6ca6b52b4d0fc32cb125899906d6
         events: {
             googleCalendarId: config.CALENDAR_ID,
         },
