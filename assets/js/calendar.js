@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var calendar = new FullCalendar.Calendar(calendarEl, {
         eventDidMount: function(info)
         {
+            console.log(info.event.title.indexOf('Node.js'))
             if (-1 != info.event.title.indexOf("Node.js"))
             {
                 info.el.style.color = 'grey';
