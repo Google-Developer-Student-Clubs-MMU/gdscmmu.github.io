@@ -7,7 +7,21 @@ let process = {
 
 document.addEventListener('DOMContentLoaded', function() {
     var calendarEl = document.getElementById('calendar');
+    
+    function mobilecheck()
+    {
+        if (window.innerWidth >=768)
+        {
+            return false;
+        }
+        else
+        {
+            return true;
+        }
+    };
+
     var calendar = new FullCalendar.Calendar(calendarEl, {
+        
         eventDidMount: function(info)
         {
             console.log(info.event.title.indexOf('Node.js'))
@@ -49,13 +63,17 @@ document.addEventListener('DOMContentLoaded', function() {
         //     next: 'fa-chevron-right',
         // },
         themeSystem: 'bootstrap',
-        initialView: 'dayGridMonth',
+        initialView: mobilecheck() ? 'listMonth': 'dayGridMonth',
         showNonCurrentDates: false,
         contentHeight: 600,
         displayEventTime: false,
+<<<<<<< HEAD
+        googleCalendarApiKey: config.API_KEY,
+=======
         googleCalendarApiKey: process.env.GoogleCalendarAPIKey,
+>>>>>>> 066b0c98d26e6ca6b52b4d0fc32cb125899906d6
         events: {
-            googleCalendarId: 'r9qv95ek58u07ektu1lo59cpio@group.calendar.google.com'
+            googleCalendarId: config.CALENDAR_ID,
         },
 
         eventClick: function(info)
@@ -66,5 +84,4 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     calendar.render();
   });
-// TODO color code events 
-// TODO make popup onClick
+//TODO browser detection
