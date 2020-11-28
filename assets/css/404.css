@@ -1,0 +1,42 @@
+body{
+    background-image: url("../img/404-background.svg") !important;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#notFound{
+    text-align: center;
+    color: #343434
+}
+
+#notFound h1 {
+    font-size: 6rem;
+    color: #0e174a;
+    text-shadow: 3px 3px #acaebe86;
+}
+
+#notFound h2 {
+    color: #000000;
+}
+
+#notFound p {
+    color: #000000;
+}
+
+.dsc-logo {
+    opacity: 100%;
+    max-width: 10cm;
+    height: auto;
+}
+
+.dsc-logo {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 100px) {
+    .dsc-logo {
+        display: block;
+    }
+}
