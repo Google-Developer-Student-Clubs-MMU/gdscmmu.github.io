@@ -148,7 +148,7 @@ a.article:hover {
     right: 0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 994px) {
     #sidebarCollapse {
         display: block;
         top: 15px;
