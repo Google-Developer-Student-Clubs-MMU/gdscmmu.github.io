@@ -292,7 +292,7 @@ body{
     border: none;
 }
 
-@media screen and (max-width: 1023px){}
+@media screen and (max-width: 1023px){
     #teams {
         font-size: 1rem;
         padding: 2.5rem 1rem !important;
