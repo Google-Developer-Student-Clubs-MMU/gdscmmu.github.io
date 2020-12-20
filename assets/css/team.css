@@ -79,6 +79,10 @@ body{
     border-radius: 50% !important;
 }
 
+#pic .profile-9{
+    border-radius: 50% !important;
+}
+
 .profile {
     height: 300px;
     max-width: 300px;
@@ -228,6 +232,54 @@ body{
     border: none;
 }
 
+.profile-20 .profile-span {
+    height: 100%;
+    background-image: url("../img/LimTingHo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    transition: all 1s;
+    border-radius: 5px;
+    animation: none;
+    border: none;
+}
+
+.profile-21 .profile-span {
+    height: 100%;
+    background-image: url("../img/Iffah.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    transition: all 1s;
+    border-radius: 5px;
+    animation: none;
+    border: none;
+}
+
+.profile-22 .profile-span {
+    height: 100%;
+    background-image: url("../img/HewZhongKen.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    transition: all 1s;
+    border-radius: 5px;
+    animation: none;
+    border: none;
+}
+
+.profile-23 .profile-span {
+    height: 100%;
+    background-image: url("../img/Haqeem.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    transition: all 1s;
+    border-radius: 5px;
+    animation: none;
+    border: none;
+}
+
 .profile-0 .profile-span {
     height: 100%;
     background-image: url("../img/member.jpg");
@@ -238,4 +290,11 @@ body{
     border-radius: 5px;
     animation: none;
     border: none;
+}
+
+@media screen and (max-width: 1023px){}
+    #teams {
+        font-size: 1rem;
+        padding: 2.5rem 1rem !important;
+    }
 }
