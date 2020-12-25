@@ -83,6 +83,10 @@ body{
     border-radius: 50% !important;
 }
 
+#pic .profile-15{
+    border-radius: 50% !important;
+}
+
 .profile {
     height: 300px;
     max-width: 300px;
