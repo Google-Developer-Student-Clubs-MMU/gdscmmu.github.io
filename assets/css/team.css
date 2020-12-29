@@ -296,6 +296,11 @@ body{
     border: none;
 }
 
+#teams p {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
 @media screen and (max-width: 1023px){
     #teams {
         font-size: 1rem;
