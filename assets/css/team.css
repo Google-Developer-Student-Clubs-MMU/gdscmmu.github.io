@@ -296,6 +296,10 @@ body{
     border: none;
 }
 
+.profile {
+    margin: 20px auto !important;
+}
+
 #teams p {
     max-width: 70%;
     margin: 0 auto;
