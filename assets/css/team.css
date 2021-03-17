@@ -34,12 +34,40 @@ body{
     box-shadow: 0px 6px 5px 3px rgba(0,0,0,0.42);
 }
 
-.team-odd {
-    background-color: beige;
+.team-1 {
+    background-color: #FEF9E7;
 }
 
-.team-even {
-    background-color: rgb(245, 245, 238);
+.team-2 {
+    background-color: #FEF8E7;
+}
+
+.team-3 {
+    background-color: #FEF7E7;
+}
+
+.team-4 {
+    background-color: #FEF6E7;
+}
+
+.team-5 {
+    background-color: #FEF5E7;
+}
+
+.team-6 {
+    background-color: #FEF4E7;
+}
+
+.team-7 {
+    background-color: #FEF3E7;
+}
+
+.team-8 {
+    background-color: #FEF2E7;
+}
+
+.team-9 {
+    background-color: #FEF1E7;
 }
 
 .teams h2{
@@ -76,6 +104,14 @@ body{
 }
 
 #pic .profile-7{
+    border-radius: 50% !important;
+}
+
+#pic .profile-9{
+    border-radius: 50% !important;
+}
+
+#pic .profile-15{
     border-radius: 50% !important;
 }
 
@@ -204,18 +240,6 @@ body{
     border: none;
 }
 
-.profile-18 .profile-span {
-    height: 100%;
-    background-image: url("../img/Eashvaren.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: absolute;
-    transition: all 1s;
-    border-radius: 5px;
-    animation: none;
-    border: none;
-}
-
 .profile-19 .profile-span {
     height: 100%;
     background-image: url("../img/Shaun.jpg");
@@ -228,9 +252,9 @@ body{
     border: none;
 }
 
-.profile-0 .profile-span {
+.profile-20 .profile-span {
     height: 100%;
-    background-image: url("../img/member.jpg");
+    background-image: url("../img/LimTingHo.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
@@ -238,4 +262,71 @@ body{
     border-radius: 5px;
     animation: none;
     border: none;
+}
+
+.profile-21 .profile-span {
+    height: 100%;
+    background-image: url("../img/Iffah.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    transition: all 1s;
+    border-radius: 5px;
+    animation: none;
+    border: none;
+}
+
+.profile-22 .profile-span {
+    height: 100%;
+    background-image: url("../img/HewZhongKen.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    transition: all 1s;
+    border-radius: 5px;
+    animation: none;
+    border: none;
+}
+
+.profile-23 .profile-span {
+    height: 100%;
+    background-image: url("../img/Haqeem.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    transition: all 1s;
+    border-radius: 5px;
+    animation: none;
+    border: none;
+}
+
+
+.profile {
+    margin: 20px auto !important;
+}
+
+#teams p {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+header{
+    z-index: 1000;
+    width: 100%;
+    position: fixed !important;
+    background-color: #1F1F1F ;
+    opacity: 0.7;
+    /* background-color: white; */
+}
+
+footer {
+    background-color: #FEF1E7 !important;
+}
+
+
+@media screen and (max-width: 1023px){
+    #teams {
+        font-size: 1rem;
+        padding: 2.5rem 1rem !important;
+    }
 }
