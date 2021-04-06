@@ -240,8 +240,12 @@ h1 {
 }
 
 
-#team {
+#FAQ {
     background-color: beige;
+}
+
+#footer {
+    background-color: white;
 }
 
 .box {
@@ -473,7 +477,7 @@ span {
 
 footer {
     font-weight: 200;
-    background-color: beige;
+    background-color: white;
     padding: 4rem;
     /* text-align: center; */
 }
