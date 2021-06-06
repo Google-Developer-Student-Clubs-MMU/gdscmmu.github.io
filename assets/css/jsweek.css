@@ -43,6 +43,19 @@ h1 {
     max-width: 90%;
 }
 
+.javascript-box{
+    background-color: white;
+    box-shadow: 0px 4px 15px 5px rgba(180, 180, 180, 0.25);
+    border-radius: 8px;
+}
+
+.card-icon{
+    bottom: 20px;
+    right: 20px;
+    height: 95px;
+    width: 95px;
+}
+
 .crazy-amount-box {
     border-radius: 15px;
     min-width: 80%;
