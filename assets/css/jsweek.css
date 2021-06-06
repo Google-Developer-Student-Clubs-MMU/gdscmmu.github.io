@@ -11,6 +11,10 @@ h1 {
     min-height: 100vh;
 }
 
+.what-youll-learn {
+    background-color: ghostwhite;
+}
+
 .jsweek-splash {
     max-width: 80%;
 }
@@ -72,6 +76,7 @@ h5 {
 }
 
 .requirements {
+    background-color: ghostwhite;
     padding: 3rem;
 }
 
@@ -81,4 +86,23 @@ footer {
 
 .register {
     padding: 5rem;
+}
+
+.register-button {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 32px;
+    margin-top: 10px;
+    border-radius: 4px;
+    border: 2px solid rgb(53, 134, 215);
+    transition: all 1s ease;
+    color: rgb(53, 134, 215);
+    overflow: hidden;
+    position: relative;
+    background: #f5f5f5 !important;
+    box-shadow: 0px 16px 40px rgba(204, 204, 204, 0.25);
 }
