@@ -1,6 +1,5 @@
 body {
     background-image: none !important;
-    background-color: #E5E5E5 !important;
 }
 
 h1 {
@@ -57,4 +56,16 @@ h1 {
 
 h5 {
     font-weight: 100 !important;
+}
+
+.requirements {
+    padding: 3rem;
+}
+
+footer {
+    background-color: beige !important;
+}
+
+.register {
+    padding: 5rem;
 }

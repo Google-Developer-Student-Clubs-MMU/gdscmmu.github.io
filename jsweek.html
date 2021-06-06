@@ -12,9 +12,10 @@
         <link href="assets/css/jsweek.css" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Morphext/2.4.4/morphext.css" integrity="sha512-rbQVBRhxp7t0s71vF4UBqe5cFYvlG3l/q5KR02v6aGjqh5U0//71F0l5i/+2Q0GB7Z0rgcrzQQOin+WFm1VmJw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    </head>
+      </head>
     <body>
         <nav id="sidebar">
             <div id="dismiss">
@@ -96,8 +97,9 @@
         </header>
         <section class="container header-section d-flex justify-content-center align-items-center">
           <div class="row">
-            <div class="col-md-6 d-flex align-items-center text-md-right text-center">
+            <div class="col-md-6 d-flex flex-column justify-content-center text-md-right text-center">
               <h1>DSC@MMU is announcing Javascript Week 2021!</h1>
+              <h3><span id="js-rotating">React.js, Node.js, PostgreSQL, Vanilla JS</span></h3>
             </div>
             <div class="col-md-6">
               <img class="jsweek-splash" src="assets/img/jsweek/JSWeek-splash-abstract.svg" alt="JS Week Splash Abstract">
@@ -150,10 +152,10 @@
         </section>
 
         <section class="requirements container mt-5">
-          <h2>Requirements</h2>
+          <h2 class="mb-5">Requirements</h2>
           <div class="row">
             <div class="col-md-6">
-              <div class="black-box p-3">
+              <div class="black-box p-3 mb-3">
                 <h5>Software you'll need</h5>
               </div>
               <ul>
@@ -161,24 +163,94 @@
                 <li>Beekeeper</li>
                 <li>Node</li>
               </ul>
-              <div class="black-box p-3">
+            </div>
+            <div class="col-md-6">
+              <div class="black-box p-3 mb-3">
                 <h5>Hardware you'll need</h5>
               </div>
               <ul>
-                <li>An iMac Pro</li>
+                <li>A Computer with an internet connection</li>
               </ul>
             </div>
+            <div class="col-12">
+              <div class="text-center">
+                <h5>We'll update this page with pre-requisites and installation videos nearer to the event!</h5>
+              </div>
 
+            </div>
           </div>
           </div>
         </section>
+        <section class="register container text-center">
+          <h4 class="mb-4">Register Now!</h4>
+          <button class="btn btn-success">Head to Registration</button>
+        </section>
+        <footer id="footer" class="container-fluid">
+          <div class="container">
+            <div class="heading">
+              <h2>Get In Touch With Us!</h2>
+            </div>
+            <div class="row mb-5 justify-content-center">
+              <div data-aos="fade-down" data-aos-duration="1500" class="form-section col-lg-4 col-md-6 mb-5">
+                <h5 class="mb-4 text-sm-center">Have a Question?</h5>
+                <div class="success-message"></div>
+                <div>
+                <form name="submit-to-google-sheet">
+                  <div class="form-group">
+                    <label for="Name">Name</label>
+                    <input name="name" type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter your name">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  </div>
+                  <div class="form-group">
+                    <label for="Message">Message</label>
+                    <textarea name="message" type="textarea" class="form-control" id="message" aria-describedby="emailHelp" placeholder="Have anything on your mind?"></textarea>
+                    <!-- <input name="message" type="text" class="form-control" id="message" aria-describedby="emailHelp" placeholder="Have anything on your mind?"> -->
+                  </div>
+                  <!-- <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                  </div> -->
+                  <button type="submit" class="btn btn-primary">Send!</button>
+                </form>
+              </div>
+              </div>
+              <!-- <div class="col-md-4">
+
+              </div> -->
+              <div data-aos="fade-down" data-aos-duration="1500" class="col-lg-4 col-md-6 text-center">
+                <h5 class="mb-4">Join Us On Discord!</h5>
+                <iframe class="discord-widget" src="https://discord.com/widget?id=772431062532882432&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <p>Engineered by the <a href="https://github.com/GDSCMMU" target="_">Technical Team</a> | All Rights Reserved by GDSC@MMU</p>
+            </div>
+          </div>
+        </footer>
     </body>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Morphext/2.4.4/morphext.min.js" integrity="sha512-WPYLBBtLFRUKCbj+PI7iHTL9ORQvxc7uhsb7bIQMKoRPYbiybfoIKIxJ7ynVwrGpspeR2K7WFODUST/xDLg1wA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <script>
       AOS.init();
+      $("#js-rotating").Morphext({
+        // The [in] animation type. Refer to Animate.css for a list of available animations.
+        animation: "bounceIn",
+        // An array of phrases to rotate are created based on this separator. Change it if you wish to separate the phrases differently (e.g. So Simple | Very Doge | Much Wow | Such Cool).
+        separator: ",",
+        // The delay between the changing of each phrase in milliseconds.
+        speed: 2000,
+        complete: function () {
+            // Called after the entrance animation is executed.
+        }
+    });
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-</body>
+  </body>
 </html>
