@@ -1,0 +1,14 @@
+.go-to-programme-button {
+  background-color: #00a8ff !important;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
