@@ -1,106 +1,106 @@
 @font-face {
-    font-family: 'Google Sans';
-    src: url('../fonts/GoogleSans-BoldItalic.woff2') format('woff2'),
-        url('../fonts/GoogleSans-Italic.woff') format('woff');
+    font-family: "Google Sans";
+    src: url("../fonts/GoogleSans-BoldItalic.woff2") format("woff2"),
+        url("../fonts/GoogleSans-Italic.woff") format("woff");
     font-weight: normal;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Google Sans';
-    src: url('../fonts/GoogleSans-Bold.woff2') format('woff2'),
-        url('../fonts/GoogleSans-Bold.woff') format('woff');
+    font-family: "Google Sans";
+    src: url("../fonts/GoogleSans-Bold.woff2") format("woff2"),
+        url("../fonts/GoogleSans-Bold.woff") format("woff");
     font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Google Sans';
-    src: url('../fonts/GoogleSans-BoldItalic.woff2') format('woff2'),
-        url('GoogleSans-BoldItalic.woff') format('woff');
+    font-family: "Google Sans";
+    src: url("../fonts/GoogleSans-BoldItalic.woff2") format("woff2"),
+        url("GoogleSans-BoldItalic.woff") format("woff");
     font-weight: bold;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Google Sans';
-    src: url('../fonts/GoogleSans-Medium.woff2') format('woff2'),
-        url('../fonts/GoogleSans-Medium.woff') format('woff');
+    font-family: "Google Sans";
+    src: url("../fonts/GoogleSans-Medium.woff2") format("woff2"),
+        url("../fonts/GoogleSans-Medium.woff") format("woff");
     font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Google Sans';
-    src: url('../fonts/GoogleSans-Regular.woff2') format('woff2'),
-        url('../fonts/GoogleSans-Regular.woff') format('woff');
+    font-family: "Google Sans";
+    src: url("../fonts/GoogleSans-Regular.woff2") format("woff2"),
+        url("../fonts/GoogleSans-Regular.woff") format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Google Sans';
-    src: url('../fonts/GoogleSans-MediumItalic.woff2') format('woff2'),
-        url('../fonts/GoogleSans-MediumItalic.woff') format('woff');
+    font-family: "Google Sans";
+    src: url("../fonts/GoogleSans-MediumItalic.woff2") format("woff2"),
+        url("../fonts/GoogleSans-MediumItalic.woff") format("woff");
     font-weight: 500;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Google Sans Display';
-    src: url('../fonts/GoogleSansDisplay-BoldItalic.woff2') format('woff2'),
-        url('../fonts/GoogleSansDisplay-BoldItalic.woff') format('woff');
+    font-family: "Google Sans Display";
+    src: url("../fonts/GoogleSansDisplay-BoldItalic.woff2") format("woff2"),
+        url("../fonts/GoogleSansDisplay-BoldItalic.woff") format("woff");
     font-weight: bold;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Google Sans Display';
-    src: url('../fonts/GoogleSansDisplay-Italic.woff2') format('woff2'),
-        url('../fonts/GoogleSansDisplay-Italic.woff') format('woff');
+    font-family: "Google Sans Display";
+    src: url("../fonts/GoogleSansDisplay-Italic.woff2") format("woff2"),
+        url("../fonts/GoogleSansDisplay-Italic.woff") format("woff");
     font-weight: normal;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Google Sans Display';
-    src: url('../fonts/GoogleSansDisplay-Bold.woff2') format('woff2'),
-        url('../fonts/GoogleSansDisplay-Bold.woff') format('woff');
+    font-family: "Google Sans Display";
+    src: url("../fonts/GoogleSansDisplay-Bold.woff2") format("woff2"),
+        url("../fonts/GoogleSansDisplay-Bold.woff") format("woff");
     font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Google Sans Display';
-    src: url('../fonts/GoogleSansDisplay-Medium.woff2') format('woff2'),
-        url('../fonts/GoogleSansDisplay-Medium.woff') format('woff');
+    font-family: "Google Sans Display";
+    src: url("../fonts/GoogleSansDisplay-Medium.woff2") format("woff2"),
+        url("../fonts/GoogleSansDisplay-Medium.woff") format("woff");
     font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Google Sans Display';
-    src: url('../fonts/GoogleSansDisplay-Regular.woff2') format('woff2'),
-        url('../fonts/GoogleSansDisplay-Regular.woff') format('woff');
+    font-family: "Google Sans Display";
+    src: url("../fonts/GoogleSansDisplay-Regular.woff2") format("woff2"),
+        url("../fonts/GoogleSansDisplay-Regular.woff") format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Google Sans Display';
-    src: url('../fonts/GoogleSansDisplay-MediumItalic.woff2') format('woff2'),
-        url('../fonts/GoogleSansDisplay-MediumItalic.woff') format('woff');
+    font-family: "Google Sans Display";
+    src: url("../fonts/GoogleSansDisplay-MediumItalic.woff2") format("woff2"),
+        url("../fonts/GoogleSansDisplay-MediumItalic.woff") format("woff");
     font-weight: 500;
     font-style: italic;
     font-display: swap;
@@ -110,7 +110,8 @@ html {
     scroll-behavior: smooth;
 }
 
-div, footer {
+div,
+footer {
     scroll-margin-top: 50px;
 }
 
@@ -119,7 +120,7 @@ a:hover {
 }
 
 body > * {
-    font-family: 'Google Sans', sans-serif !important;
+    font-family: "Google Sans", sans-serif !important;
     color: #0e174a !important;
 }
 
@@ -134,7 +135,7 @@ header {
     z-index: 1000;
     width: 100%;
     position: fixed;
-    background-color: #1F1F1F ;
+    background-color: #1f1f1f;
     opacity: 0.7;
     /* background-color: white; */
 }
@@ -146,7 +147,6 @@ header {
 .main-links {
     padding-top: 10px;
 }
-
 
 .nav-link:hover {
     background-color: white;
@@ -165,7 +165,7 @@ header:hover {
 }
 
 .social-handles i:hover {
-    opacity: 1.0;
+    opacity: 1;
 }
 
 h1 {
@@ -195,7 +195,10 @@ h1 {
     max-width: 500px;
 }
 
-#moreondsc, #team, #whattoexpect, #FAQ{
+#moreondsc,
+#team,
+#whattoexpect,
+#FAQ {
     /* font-size: 1.5rem; */
     font-weight: 200;
     background-color: white;
@@ -208,12 +211,12 @@ h1 {
     text-align: center;
 }
 
-
 .outer-div {
     position: relative;
 }
 
-.guy-1, .guy-2 {
+.guy-1,
+.guy-2 {
     display: none;
     position: absolute;
     max-height: 600px;
@@ -234,11 +237,10 @@ h1 {
     min-height: 272px;
     padding: 2rem !important;
     margin: 1rem;
-    -webkit-box-shadow: 10px 8px 47px -14px rgba(0,0,0,0.3);
-    -moz-box-shadow: 10px 8px 47px -14px rgba(0,0,0,0.3);
-    box-shadow: 10px 8px 47px -14px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 10px 8px 47px -14px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 10px 8px 47px -14px rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 8px 47px -14px rgba(0, 0, 0, 0.3);
 }
-
 
 #FAQ {
     background-color: beige;
@@ -260,15 +262,15 @@ h1 {
 }
 
 span {
-    border-right: .05em solid;
+    border-right: 0.05em solid;
     animation: caret 1s steps(1) infinite;
-  }
-  
-  @keyframes caret {
+}
+
+@keyframes caret {
     50% {
-      border-color: transparent;
+        border-color: transparent;
     }
-  }
+}
 
 .heading {
     text-align: center;
@@ -287,7 +289,7 @@ span {
     overflow: hidden;
     cursor: pointer;
     background-color: #fff;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.6);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
     border-radius: 10px;
 }
 
@@ -450,7 +452,6 @@ span {
     transform: translateY(0);
 }
 
-
 #accordion button {
     width: 100%;
     display: flex;
@@ -502,7 +503,6 @@ footer.container-fluid {
     }
 }
 
-
 @media screen and (max-width: 767px) {
     h1 {
         font-size: 2.5rem !important;
@@ -522,13 +522,18 @@ footer.container-fluid {
 }
 
 @media screen and (max-width: 1023px) {
-    h1, h3 {
+    h1,
+    h3 {
         color: #000000 !important;
-    }    
+    }
     h1 {
         text-shadow: 2px 2px #fff;
     }
-    #moreondsc, #team, #whattoexpect, #FAQ, footer {
+    #moreondsc,
+    #team,
+    #whattoexpect,
+    #FAQ,
+    footer {
         font-size: 1rem;
         padding: 2.5rem 1rem 2.5rem 1rem !important;
     }
@@ -538,8 +543,8 @@ footer.container-fluid {
 }
 
 @media screen and (min-width: 1270px) {
-    .guy-1, .guy-2 {
+    .guy-1,
+    .guy-2 {
         display: block;
     }
 }
-
